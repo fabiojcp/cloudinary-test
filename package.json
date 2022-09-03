@@ -5,6 +5,10 @@
   "repository": "https://github.com/fabiojcp/cloudinary-test.git",
   "author": "Fabiojcp <fabio50019@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build" : "tsc",
+    "start": "node dist/src/index.js"
+  },
   "dependencies": {
     "@types/multer": "^1.4.7",
     "cloudinary": "^1.31.0",
